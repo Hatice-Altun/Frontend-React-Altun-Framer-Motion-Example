@@ -1,0 +1,52 @@
+.navbar .leftSide img {
+    width: 100px;
+}
+
+.navbar {
+    background: transparent;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    margin-top: -80px;
+}
+
+.navbar a,
+.navbar a:visited,
+.navbar a:active {
+    color: #082b4b;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    color: #082b4b;
+    margin-right: 12px;
+    transition: all .3s ease-in-out;
+}
+
+.navbar .leftSide {
+    flex: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 140px;
+}
+
+.navbar .rightSide {
+    flex: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin-right: 140px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+}
